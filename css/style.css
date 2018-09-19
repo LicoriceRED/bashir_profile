@@ -1,0 +1,74 @@
+body {
+    background:black;
+}
+
+.container {
+    display: grid;
+    grid-template-rows:  100px 1em 50px;
+    
+
+    
+}
+
+.bar {
+    width: 90%;
+    height: .5em;
+    background-color: #419F39;
+    margin-top: 2em;
+    box-shadow: 0px 0px 10px green;
+    border-radius: 2px; 
+}
+
+.bash {
+    /* background-color: red; */
+    color: #419F39;
+    font-size: 2.5em;
+    font-family: courier;
+    text-shadow: 0px 0px 10px #419F39;
+    margin-top: 1em; 
+    /* background-color: red; */
+
+}
+
+a {
+    /* background-color: red; */
+    font-size: 2.5em;
+    font-family: courier;
+    text-decoration: none;
+    color:#419F39;
+    text-shadow: 0px 0px 10px #419F39;
+
+}
+
+ul {
+    list-style: none;
+    margin-top: 6em;
+    
+  }
+
+.box { 
+    display: inline-block;
+    background-color: #419F39;
+    height: 23px;
+    width: 13px;
+    box-align: center;
+    animation: pulse 1.2s infinite;
+    box-shadow: 0px 0px 10px #419F39;
+ }
+
+ @keyframes pulse {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+ }
+
+ .arrow {
+    display: inline-block;
+    color: #419F39;
+    font-family: courier;
+    font-size: 2.5em;
+    margin-left: -1.4em;
+    /* background-color: red; */
+    text-shadow: 0px 0px 10px #419F39;
+ }
+
+ 
