@@ -249,10 +249,10 @@ input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholde
   
   input {
     font-family: courier;
-    font-size: 20px;
-    width: 320px;
+    font-size: 3em;
+    width: 80vw;
     height: 2em;
-    padding-left: 1em;
+    padding-left: .5em;
     color: var(--primary);
     
     
@@ -269,7 +269,7 @@ input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholde
   }
   
   input:hover {
-    background: #b3aca7;
+    background: transparent;
     color: var(--primary);
     }
   
@@ -277,11 +277,11 @@ input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholde
 
   
   textarea {
-    width: 319px;
+    width: 15.8em;
     height: 15em;
-    font-size: 20px;
-    padding-left: 1em;
-    color: var(--primary);
+    font-size: 3em;
+    padding: .5em;
+    color: black;
     background: transparent;
     
     
@@ -296,13 +296,13 @@ input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholde
   }
   
   textarea:hover {
-    background: #b3aca7;
+    background: transparent;
     color: var(--primary);
   }
 
   #submit {
-    font-size: 20px;
-    width: 343px;
+    font-size: 3em;
+    width: 16.8em;
     
     /* padding-left: 1em; */
     margin: -5px 0px 0px 0px;
@@ -349,6 +349,17 @@ input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholde
     margin-left: 2em;
 }
   
+
+
+
+/* martian */
+
+.image1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
 
     /* animations */
 @keyframes pulse {
