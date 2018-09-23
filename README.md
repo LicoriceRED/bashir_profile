@@ -60,11 +60,11 @@ I completed my site in figma first before getting into the code.
 ## mobile and desktop on figma
 ![figma](docs/images/figma4.png)
 
-Usability considerations:
+## Usability considerations:
+
 one of the main issues i was facing was the home button. as the page name might be misleading to be set to return to the home page. so on each page there is a designated home button at the top. 
 
-### Details of planning process including,
-Project plan & timeline
+
 
 ## A1
 
